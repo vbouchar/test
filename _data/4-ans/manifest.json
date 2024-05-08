@@ -1,0 +1,33 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://vbouchar.github.io/test/4-ans/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "4 ans" ] },
+    "items": [
+      {
+        "id": "https://vbouchar.github.io/test/4-ans/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 9,
+        "items": [
+          {
+            "id": "https://vbouchar.github.io/test/4-ans/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://vbouchar.github.io/test/4-ans/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://dlib.indiana.edu/avannotate/bouchard/IL_YA_QUATREANS_4KDCI_H264_VOST-high.mp4",
+                    "type": "Video",
+                    "format": "video/mp4",
+                    "duration": 9
+                },
+                "target": "https://vbouchar.github.io/test/4-ans/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
